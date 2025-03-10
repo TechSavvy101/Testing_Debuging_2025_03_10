@@ -22,7 +22,7 @@ label123 = Label(window, text="Employee Register Form") # Typos**
 label123.pack()
 
 # Create fields with inconsistent naming
-name_label = Label(window, text="Enter Namme: ") # Typo**
+name_label = Label(window, text="Enter Name: ") # Typo**
 name_label.pack()
 name_entry = Entry(window)
 name_entry.pack()
@@ -47,12 +47,12 @@ try:
     yearly = sal * 12
     tax = yearly* 0.18 # Arbitrary 18% tax
     afterTax = yearly - tax
-    result_label.config(text="Yearly: " + str(yearly) + "\nAfter Tax: " + str(afterTax))# Incorrect concatenation**
+    result_label.config(text="Yearly: " + str(yearly) + "\n After Tax: " + str(afterTax))# Incorrect concatenation**
 except:
     result_label.config(text="Salary Sould be a valid number!!!") # Unhelpful error message**
 
 # "Submit" button, but misspelled and inconsistent
-submitButton= Button(window, text="Submit", command=calculate) # Typo submitButon.pack()**
+submitButton = Button(window, text="Submit", command=calculate) # Typo submitButon.pack()**
 submitButton.pack()
 
 #Broken "Exit" button
