@@ -49,7 +49,7 @@ try:
     afterTax = yearly - tax
     result_label.config(text="Yearly: " + str(yearly) + "\n After Tax: " + str(afterTax))# Incorrect concatenation**
 except:
-    result_label.config(text="Salary Sould be a valid number!!!") # Unhelpful error message**
+    result_label.config(text="Salary Should be a valid number!!!") # Unhelpful error message**
 
 # "Submit" button, but misspelled and inconsistent
 submitButton = Button(window, text="Submit", command=calculate) # Typo submitButon.pack()**
