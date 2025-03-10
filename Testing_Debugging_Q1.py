@@ -1,3 +1,5 @@
+#Question 1..................................................................
+
 # Get user input
 monthly_salary = float(input("Enter your monthly salary: ")) 
 salary = float(input("Enter your annual salary: "))
@@ -52,3 +54,4 @@ print(f"Eligible for Bonus: {'Yes' if is_eligible_for_bonus(salary) else 'No'}")
 print(f"Formatted Name: {format_name(first_name, last_name)}")
 print(f"Total Work Hours: {total_work_hours(daily_hours, days_worked) }")
 print(f"Salary after Tax Deduction: {apply_tax(salary)}")
+
